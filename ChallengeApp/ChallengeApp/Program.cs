@@ -4,8 +4,8 @@ Console.WriteLine("Witamy w programie ocen pracowników");
 Console.WriteLine("===================================");
 Console.WriteLine();
 
-var employee = new Employee("Jan", "Kowalski", 'M');
-employee.ToString();
+var employee = new EmployeeInMemory("Jan", "Kowalski");
+employee.SayHello();
 
 while (true)
 {
@@ -34,4 +34,3 @@ var statistics = employee.GetStatistics();
 Console.WriteLine($"Średnia ocen: {statistics.Average}");
 Console.WriteLine($"Najniższa ocena: {statistics.Min}");
 Console.WriteLine($"Najwyższa ocena: {statistics.Max}");
-//Testowy komentarz w Codespace GitHub

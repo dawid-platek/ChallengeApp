@@ -2,14 +2,13 @@
 {
     public abstract class Person // klasa abstrakcyjna
     {
-        public Person(string name, string surname, char sex)
+        public Person(string name, string surname)
         {
             this.Name = name;
             this.Surname = surname;
-            this.Sex = sex;
+
         }
         public string Name { get; set; }
         public string Surname { get; set; }
-        public char Sex { get; set; }
     }
 }
