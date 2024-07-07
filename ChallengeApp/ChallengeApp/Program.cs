@@ -34,3 +34,4 @@ var statistics = employee.GetStatistics();
 Console.WriteLine($"Średnia ocen: {statistics.Average}");
 Console.WriteLine($"Najniższa ocena: {statistics.Min}");
 Console.WriteLine($"Najwyższa ocena: {statistics.Max}");
+//Testowy komentarz w Codespace GitHub
