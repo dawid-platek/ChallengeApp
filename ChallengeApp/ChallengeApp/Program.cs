@@ -17,3 +17,12 @@ long myVar4 = long.MaxValue;
 
 ulong myUVar3 = ulong.MinValue;
 ulong myUVar4 = ulong.MaxValue;
+
+float myNumber = float.MinValue;
+float myNumber2 = float.MaxValue;
+
+double myDouble = double.MinValue;
+double myDouble2 = double.MaxValue;
+
+decimal myDecimal = decimal.MinValue;
+decimal myDecimal2 = decimal.MaxValue;
