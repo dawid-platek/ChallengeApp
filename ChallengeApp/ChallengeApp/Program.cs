@@ -39,3 +39,14 @@ Console.WriteLine(fullName);
 char myChar = 'A';
 var result2 = name.ToArray();
 
+// zmienna logiczna
+bool isTrue = true;
+bool isFalse = false;
+var isValid = 5 > 3;
+Console.WriteLine(isValid);
+
+var isValid2 = 7 < 4;
+Console.WriteLine(isValid2);
+
+
+
