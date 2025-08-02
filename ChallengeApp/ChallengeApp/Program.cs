@@ -34,3 +34,8 @@ string name = "Staszek";
 string surname = "Nowak";
 string fullName = name + " " + surname;
 Console.WriteLine(fullName);
+
+//zmienne testowe (char)
+char myChar = 'A';
+var result2 = name.ToArray();
+
