@@ -7,7 +7,7 @@ if (number1 > number2)
 }
 else if (number1 < number2)
 {
-    Console.WriteLine($"Liczba {number1} jest mniejsza od liczby {number2}"); ;
+    Console.WriteLine($"Liczba {number1} jest mniejsza od liczby {number2}");
 }
 else
 {
@@ -17,3 +17,31 @@ else
 
 
 
+// Operatory relacyjne
+// ==
+// !=
+// >
+// <
+// >=
+// <=
+
+// Operatory logiczne
+// && (i)
+// || (lub)
+// ! (negacja)
+
+var name = "Jan";
+var age = 30;
+
+if (name == "Jan" && age > 18)
+{
+    Console.WriteLine("Jan jest pełnoletni.");
+}
+else if (name == "Jan" && age <= 18)
+{
+    Console.WriteLine("Jan jest niepełnoletni.");
+}
+else
+{
+    Console.WriteLine("To nie jest Jan.");
+}
