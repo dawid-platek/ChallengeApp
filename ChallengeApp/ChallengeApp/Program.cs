@@ -53,6 +53,16 @@ else if (name != "Jan" && age < 18)
     Console.WriteLine("To nie jest Jan, ale ktoś niepełnoletni");
 }
 
-
+if (age >= 18)
+{
+    if (name == "Jan")
+    {
+        Console.WriteLine("Jan jest pełnoletni.");
+    }
+    else
+    {
+        Console.WriteLine("To nie jest Jan, ale ktoś pełnoletni");
+    }
+}
 
 
