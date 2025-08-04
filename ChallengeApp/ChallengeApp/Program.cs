@@ -1,4 +1,6 @@
-﻿var number1 = 50;
+﻿using System.Security.Principal;
+
+var number1 = 50;
 var number2 = 10;
 
 if (number1 > number2)
@@ -33,15 +35,24 @@ else
 var name = "Jan";
 var age = 30;
 
-if (name == "Jan" && age > 18)
+if (name == "Jan" && age >= 18)
 {
     Console.WriteLine("Jan jest pełnoletni.");
 }
-else if (name == "Jan" && age <= 18)
+else if (name == "Jan" && age < 18)
 {
     Console.WriteLine("Jan jest niepełnoletni.");
 }
-else
+
+else if (name != "Jan" && age >= 18)
 {
-    Console.WriteLine("To nie jest Jan.");
+    Console.WriteLine("To nie jest Jan, ale ktoś pełnoletni");
 }
+else if (name != "Jan" && age < 18)
+{
+    Console.WriteLine("To nie jest Jan, ale ktoś niepełnoletni");
+}
+
+
+
+
